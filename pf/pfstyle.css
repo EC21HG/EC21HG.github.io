@@ -1,0 +1,246 @@
+@font-face {
+    font-family: Vantage;
+    src: url("asset/perfectly_vintages/Perfectly\ Vintages\ Font\ by\ Keithzo.otf");
+}
+
+@font-face {
+    font-family: Voll;
+    src: url("asset/vollkorn.regular.otf");
+}
+
+@font-face {
+    font-family: Rale;
+    src: url("asset/raleway.light.ttf");
+}
+
+@font-face {
+    font-family: Quicksand;
+    src: url("asset/quicksand.book-regular.otf");
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+}
+
+section {
+    font-family: Voll;
+    display: flex;
+    padding-top: 3rem;
+}
+
+section#about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section#about h2 {
+    font-size: 3rem;
+}
+
+section#about p {
+    font-size: 1.5rem;
+}
+
+section>* {
+    margin: 0;
+    flex: 1 1 120px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+section#projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section#projets h2 {
+    text-align: center;
+}
+
+section#projets p {
+    text-align: center;
+    max-width: 600px;
+    font-size: 1.6rem;
+}
+
+section#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section#competence {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section p {
+    color: #D4C5A9;
+    font-family: Quicksand;
+    font-size: 1.5em;
+    position: relative;
+
+}
+
+section p1 {
+    font-family: Rale;
+    color: #B1A28D;
+    font-size: 0.8em;
+    display: grid; 
+}
+
+.image-wrapper img {
+    width: 55rem;
+}
+
+nav a {
+    color:white;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0.7;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: larger;
+    font-family: Voll;
+}
+
+nav a:hover {
+    transform: scale(1.07);
+    opacity: 1;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #800020, #581845);
+    background-attachment: fixed;
+    color: #D8BFAA;
+}
+
+nav p {
+    font-family: Vantage ;
+    font-size: x-large;
+    color: #D8BFAA;
+}
+
+.grid  {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    row-gap: 3rem;
+    left: 2.1rem;
+    position: relative;
+}
+
+.svg {
+    height: 9em;
+    display: flex;
+}
+
+.svg1 {
+    height: 2rem;
+    display: flex;
+    left: 1rem;
+    position: relative;
+}
+
+.ghub {
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+
+/* .rosa {
+    width: 35vw;
+    height: 35vw;
+    background-color: red;
+    display:flex;
+    flex-direction: column;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s ease;
+} */
+
+/* .petal {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    transform-origin: 85.37% 85.37%;
+    clip-path: circle(50% at center);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius:50% ;
+    opacity: 0.2;   
+}
+
+.petal img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5 ease;
+}
+
+.petal.open .content {
+    display: block;
+    opacity: 1;
+}
+
+.petal:nth-child(1) {
+    transform:rotate(0deg);
+}
+
+.petal:nth-child(2) {
+    transform: rotate(60deg);
+}
+
+.petal:nth-child(3) {
+    transform: rotate(120deg);
+}
+
+.petal:nth-child(4) {
+    transform: rotate(180deg);
+}
+
+.petal:nth-child(5) {
+    transform: rotate(240deg);
+}
+
+.petal:nth-child(6) {
+    transform: rotate(300deg);
+}
+
+.petal.open img {
+    transform: scale(1.2);
+} */
+
